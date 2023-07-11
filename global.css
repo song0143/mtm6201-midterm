@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-poppins-regular: Poppins-Regular;
+    --font-poppins-bold: Poppins-Bold;
+    --font-poppins-medium: Poppins-Medium;
+    --font-sfprotext-semibold: SFProText-Semibold;
+    --font-poppins-light: Poppins-Light;
+    --font-tiro-devanagari-marathi: "Tiro Devanagari Marathi";
+    --font-circularstd-medium: CircularStd-Medium;
+    --font-avenir-roman: Avenir-Roman;
+  
+    /* font sizes */
+    --font-size-mini: 15px;
+    --font-size-lg: 18px;
+    --font-size-2xs: 11px;
+    --font-size-4xs: 9px;
+    --font-size-6xs: 7px;
+    --font-size-sm: 14px;
+    --font-size-3xs: 10px;
+    --font-size-smi: 13px;
+    --font-size-base: 16px;
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkseagreen-100: #97ca95;
+    --color-gray-100: #feffff;
+    --color-gray-200: #949494;
+    --color-whitesmoke-100: #f2f2f2;
+    --color-black: #000;
+    --color-darkslategray-100: #474749;
+    --color-darkslategray-200: #474747;
+    --color-darkslategray-300: #424242;
+    --color-salmon-100: #ef6a62;
+    --color-lightblue: #b1eafd;
+    --color-peachpuff: #f9bead;
+    --color-gainsboro-100: #d8d8d8;
+    --color-dimgray: #524d4d;
+  
+    /* border radiuses */
+    --br-smi: 13px;
+    --br-10xs-7: 2.7px;
+    --br-11xs-3: 1.3px;
+    --br-sm: 14px;
+    --br-4xs: 9px;
+    --br-81xl: 100px;
+    --br-3xs: 10px;
+    --br-xl: 20px;
+  }
+  
