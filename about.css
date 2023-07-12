@@ -1,304 +1,307 @@
 .cap-icon1 {
-    position: absolute;
-    top: calc(50% - 2px);
-    right: 0;
-    width: 1.33px;
-    height: 4px;
-    opacity: 0.4;
-  }
-  .capacity1 {
-    position: absolute;
-    height: calc(100% - 4px);
-    top: 2px;
-    bottom: 2px;
-    left: 2px;
-    border-radius: 1.33px;
-    background-color: var(--color-white);
-    width: 18px;
-  }
-  .battery1,
-  .wifi-icon1 {
-    position: absolute;
-    top: 0;
-  }
-  .battery1 {
-    right: 0;
-    border-radius: 2.67px;
-    border: 1px solid var(--color-white);
-    box-sizing: border-box;
-    width: 24.33px;
-    height: 11.33px;
-  }
-  .wifi-icon1 {
-    right: 29.36px;
-    width: 15.27px;
-    height: 10.97px;
-  }
-  .cellular-connection-icon1 {
-    position: absolute;
-    top: 0.34px;
-    right: 49.66px;
-    width: 17px;
-    height: 10.67px;
-  }
-  .time-style1,
-  .time1 {
-    position: absolute;
-    left: 0;
-  }
-  .time1 {
-    width: calc(100% + 1px);
-    top: calc(50% - 9.5px);
-    letter-spacing: -0.28px;
-    line-height: 18px;
-    display: inline-block;
-  }
-  .time-style1 {
-    bottom: 0;
-    width: 54px;
-    height: 19px;
-  }
-  .status-bar2 {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 22.67px;
-  }
-  .nav-bar-icon {
-    position: absolute;
-    bottom: -2.83px;
-    left: 4px;
-    width: 24px;
-    height: 20.83px;
-  }
-  .nav-bar {
-    position: absolute;
-    top: 52px;
-    left: 21px;
-    width: 339.33px;
-    height: 57.67px;
-    text-align: center;
-    font-size: var(--font-size-sm);
-    font-family: var(--font-avenir-roman);
-  }
-  .rectangle-icon {
-    position: absolute;
-    top: 39.67px;
-    left: -6.5px;
-    width: 388px;
-    height: 574px;
-  }
-  .aimer-le-caf,
-  .place-st-germain {
-    position: absolute;
-    top: calc(50% - 31px);
-    left: 0;
-    letter-spacing: 0.44px;
-    opacity: 0.97;
-  }
-  .place-st-germain {
-    top: calc(50% + 15px);
-    font-size: var(--font-size-base);
-    letter-spacing: 0.47px;
-    font-family: var(--font-tiro-devanagari-marathi);
-  }
-  .materials {
-    position: absolute;
-    top: 119.67px;
-    left: 23px;
-    width: 182px;
-    height: 62px;
-    color: var(--color-darkslategray-300);
-  }
-  .info {
-    position: absolute;
-    top: calc(50% - 117.05px);
-    left: 0;
-    letter-spacing: 0.44px;
-    opacity: 0.97;
-  }
-  .alexs-factory-is {
-    margin: 0;
-  }
-  .there-are-many-container {
-    position: absolute;
-    height: calc(100% - 22.09px);
-    width: calc(100% + 0.5px);
-    top: 22.09px;
-    left: 0.5px;
-    font-size: var(--font-size-xs);
-    letter-spacing: 0.35px;
-    font-family: var(--font-poppins-light);
-    display: inline-block;
-    opacity: 0.97;
-  }
-  .instructions {
-    position: absolute;
-    top: 227.34px;
-    left: 23px;
-    width: 323.5px;
-    height: 234.09px;
-    color: var(--color-darkslategray-300);
-  }
-  .rectangle-icon1,
-  .rectangle4 {
-    position: absolute;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-  }
-  .rectangle-icon1 {
-    width: 100%;
-    right: 0;
-    left: 0;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .rectangle4 {
-    left: 16px;
-    background-color: #e4e4e4;
-    width: 189.5px;
-    opacity: 0.16;
-  }
-  .info1,
-  .reviews {
-    top: calc(50% - 9px);
-    letter-spacing: -0.32px;
-  }
-  .info1 {
-    position: absolute;
-    left: 13.04%;
-  }
-  .reviews {
-    left: 62.83%;
-    cursor: pointer;
-  }
-  .contact,
-  .menu1,
-  .reviews {
-    position: absolute;
-  }
-  .menu1 {
-    top: 0;
-    left: -18px;
-    width: 459.95px;
-    height: 52px;
-    font-size: var(--font-size-base);
-    font-family: var(--font-poppins-regular);
-  }
-  .contact {
-    top: 588.67px;
-    left: 23px;
-    letter-spacing: 0.44px;
-    color: var(--color-darkslategray-100);
-  }
-  .telephone-icon {
-    position: absolute;
-    top: calc(50% - 7.5px);
-    left: 13px;
-    width: 16px;
-    height: 16px;
-  }
-  .div5 {
-    position: absolute;
-    top: calc(50% - 8.5px);
-    left: 25.97%;
-    letter-spacing: 0.38px;
-  }
-  .telepgone-number {
-    position: absolute;
-    top: 625.67px;
-    left: 23px;
-    border-radius: var(--br-4xs);
-    background-color: var(--color-peachpuff);
-    width: 154px;
-    height: 37px;
-    font-size: var(--font-size-smi);
-    color: #ef6060;
-    font-family: var(--font-poppins-medium);
-  }
-  .bugraderecom,
-  .web-site-icon {
-    position: absolute;
-    top: calc(50% - 8.5px);
-  }
-  .bugraderecom {
-    left: 18.83%;
-    letter-spacing: 0.38px;
-  }
-  .web-site-icon {
-    left: 10px;
-    width: 19px;
-    height: 19px;
-  }
-  .web-site {
-    position: absolute;
-    top: 625.67px;
-    right: 30px;
-    border-radius: var(--br-4xs);
-    background-color: var(--color-lightblue);
-    width: 154px;
-    height: 37px;
-    cursor: pointer;
-    font-size: var(--font-size-smi);
-    color: #59a3bc;
-    font-family: var(--font-poppins-medium);
-  }
-  .rectangle5 {
-    position: absolute;
-    top: calc(50% - 20.5px);
-    left: calc(50% - 95.5px);
-    border-radius: 24.5px;
-    background-color: #a1c89a;
-    width: 205px;
-    height: 49px;
-  }
-  .order-now {
-    position: absolute;
-    top: calc(50% - 3.5px);
-    left: 36.67%;
-    letter-spacing: 0.44px;
-  }
-  .order3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: #f8f8f8;
-    width: 375px;
-    height: 95px;
-    cursor: pointer;
-    font-family: var(--font-circularstd-medium);
-  }
-  .logo-2-icon {
-    position: absolute;
-    top: 140px;
-    right: 34.3px;
-    width: 51.7px;
-    height: 51.7px;
-  }
-  .innovating-canned-food {
-    position: absolute;
-    top: 483px;
-    left: 21.5px;
-    font-size: var(--font-size-base);
-    letter-spacing: 0.47px;
-    display: inline-block;
-    font-family: var(--font-tiro-devanagari-marathi);
-    color: var(--color-darkslategray-300);
-    width: 261px;
-    height: 52px;
-  }
-  .about {
-    position: relative;
-    background-color: var(--color-white);
-    width: 100%;
-    height: 792px;
-    text-align: left;
-    font-size: var(--font-size-mini);
-    color: var(--color-white);
-    font-family: var(--font-poppins-bold);
-  }
-  
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 0;
+  width: 1.33px;
+  height: 4px;
+  opacity: 0.4;
+}
+.capacity1 {
+  position: absolute;
+  height: calc(100% - 4px);
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  border-radius: 1.33px;
+  background-color: var(--color-white);
+  width: 18px;
+}
+.battery1,
+.wifi-icon1 {
+  position: absolute;
+  top: 0;
+}
+.battery1 {
+  right: 0;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 24.33px;
+  height: 11.33px;
+}
+.wifi-icon1 {
+  right: 29.36px;
+  width: 15.27px;
+  height: 10.97px;
+}
+.cellular-connection-icon1 {
+  position: absolute;
+  top: 0.34px;
+  right: 49.66px;
+  width: 17px;
+  height: 10.67px;
+}
+.time-style1,
+.time1 {
+  position: absolute;
+  left: 0;
+}
+.time1 {
+  width: calc(100% + 1px);
+  top: calc(50% - 9.5px);
+  letter-spacing: -0.28px;
+  line-height: 18px;
+  display: inline-block;
+}
+.time-style1 {
+  bottom: 0;
+  width: 54px;
+  height: 19px;
+}
+.status-bar2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 22.67px;
+}
+.nav-bar-icon {
+  position: absolute;
+  bottom: -2.83px;
+  left: 4px;
+  width: 24px;
+  height: 20.83px;
+}
+.nav-bar {
+  position: absolute;
+  top: 52px;
+  left: 21px;
+  width: 339.33px;
+  height: 57.67px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-avenir-roman);
+}
+.rectangle-icon {
+  position: absolute;
+  top: 39.67px;
+  left: -6.5px;
+  width: 388px;
+  height: 574px;
+}
+.aimer-le-caf,
+.place-st-germain {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: 0;
+  letter-spacing: 0.44px;
+  opacity: 0.97;
+}
+.place-st-germain {
+  top: calc(50% + 15px);
+  font-size: var(--font-size-base);
+  letter-spacing: 0.47px;
+  font-family: var(--font-tiro-devanagari-marathi);
+}
+.materials {
+  position: absolute;
+  top: 119.67px;
+  left: 23px;
+  width: 182px;
+  height: 62px;
+  color: var(--color-darkslategray-300);
+}
+.info {
+  position: absolute;
+  top: calc(50% - 117.05px);
+  left: 0;
+  letter-spacing: 0.44px;
+  opacity: 0.97;
+}
+.alexs-factory-is {
+  margin: 0;
+}
+.there-are-many-container {
+  position: absolute;
+  height: calc(100% - 22.09px);
+  width: calc(100% + 0.5px);
+  top: 22.09px;
+  left: 0.5px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.35px;
+  font-family: var(--font-poppins-light);
+  display: inline-block;
+  opacity: 0.97;
+}
+.instructions {
+  position: absolute;
+  top: 227.34px;
+  left: 23px;
+  width: 323.5px;
+  height: 234.09px;
+  color: var(--color-darkslategray-300);
+}
+.rectangle-icon1,
+.rectangle4 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.rectangle-icon1 {
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle4 {
+  left: 16px;
+  background-color: #e4e4e4;
+  width: 189.5px;
+  opacity: 0.16;
+}
+.info1,
+.reviews {
+  top: calc(50% - 9px);
+  letter-spacing: -0.32px;
+}
+.info1 {
+  position: absolute;
+  left: 13.04%;
+}
+.reviews {
+  left: 62.83%;
+  cursor: pointer;
+}
+.contact,
+.menu1,
+.reviews {
+  position: absolute;
+}
+.menu1 {
+  top: 0;
+  left: -18px;
+  width: 459.95px;
+  height: 52px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins-regular);
+}
+.contact {
+  top: 588.67px;
+  left: 23px;
+  letter-spacing: 0.44px;
+  color: var(--color-darkslategray-100);
+}
+.telephone-icon {
+  position: absolute;
+  top: calc(50% - 7.5px);
+  left: 13px;
+  width: 16px;
+  height: 16px;
+}
+.div5 {
+  position: absolute;
+  top: calc(50% - 8.5px);
+  left: 25.97%;
+  letter-spacing: 0.38px;
+}
+.telepgone-number {
+  position: absolute;
+  top: 625.67px;
+  left: 23px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-peachpuff);
+  width: 154px;
+  height: 37px;
+  font-size: var(--font-size-smi);
+  color: #ef6060;
+  font-family: var(--font-poppins-medium);
+}
+.bugraderecom,
+.web-site-icon {
+  position: absolute;
+  top: calc(50% - 8.5px);
+}
+.bugraderecom {
+  left: 18.83%;
+  letter-spacing: 0.38px;
+}
+.web-site-icon {
+  left: 10px;
+  width: 19px;
+  height: 19px;
+}
+.web-site {
+  position: absolute;
+  top: 625.67px;
+  right: 72%;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lightblue);
+  width: 154px;
+  height: 37px;
+  cursor: pointer;
+  font-size: var(--font-size-smi);
+  color: #59a3bc;
+  font-family: var(--font-poppins-medium);
+}
+.rectangle5 {
+  position: absolute;
+  top: calc(50% - 20.5px);
+  left: calc(50% - 95.5px);
+  border-radius: 24.5px;
+  background-color: #a1c89a;
+  width: 205px;
+  height: 49px;
+}
+.order-now {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: 36.67%;
+  letter-spacing: 0.44px;
+}
+.order-now a{
+  text-decoration: none;
+  color: #fff;
+}
+.order3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  width: 375px;
+  height: 95px;
+  cursor: pointer;
+  font-family: var(--font-circularstd-medium);
+}
+.logo-2-icon {
+  position: absolute;
+  top: 140px;
+  right: 76%;
+  width: 51.7px;
+  height: 51.7px;
+}
+.innovating-canned-food {
+  position: absolute;
+  top: 483px;
+  left: 21.5px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.47px;
+  display: inline-block;
+  font-family: var(--font-tiro-devanagari-marathi);
+  color: var(--color-darkslategray-300);
+  width: 261px;
+  height: 52px;
+}
+.about {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 792px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-poppins-bold);
+}

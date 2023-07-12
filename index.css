@@ -3,15 +3,16 @@
     position: absolute;
     top: 0;
     left: -3px;
-    background-color: var(--color-gray-100);
+    background-color: var(--color-gray-100);/* Set the background color using a CSS variable */
+    width: 375px;
     width: 375px;
     height: 708px;
-  }
+  }/* Sets the style for a rectangular element */
   .home-indicator {
-    position: absolute;
+    position: absolute;/* Position the element absolutely within its parent */
     bottom: 8px;
-    left: calc(50% - 67.5px);
-    border-radius: var(--br-81xl);
+    left: calc(50% - 67.5px);/* Calculate the left position using calc() */
+    border-radius: var(--br-81xl);/* Set the border radius using a CSS variable */
     background-color: #282c37;
     width: 135px;
     height: 5px;
@@ -45,14 +46,14 @@
     max-height: 100%;
   }
   .micraphone-icon {
-    height: calc(100% + 1.16px);
+    height: calc(100% + 1.16px);/* Increase the height slightly using calc() */
     top: 0;
     right: -1px;
     bottom: -1.16px;
     width: 10px;
   }
   .search-1-icon {
-    height: calc(100% - 2.48px);
+    height: calc(100% - 2.48px);/* Reduce the height slightly using calc() */
     top: 1.94px;
     bottom: 0.54px;
     left: 0;
@@ -66,14 +67,14 @@
   }
 
   .search-in-thousands a{
-    text-decoration: none;
-    color: #21114c;
+    text-decoration: none;/* Remove underline from anchor links */
+    color: #21114c;/* Set the text color to a specific shade of purple */
   }
 
   .group {
     position: absolute;
-    width: calc(100% - 28.94px);
-    top: calc(50% - 9.5px);
+    width: calc(100% - 28.94px);/* Calculate the width relative to the parent container */
+    top: calc(50% - 9.5px);/* Position the element vertically at the center */
     right: 13px;
     left: 15.94px;
     height: 20px;
@@ -82,24 +83,26 @@
     position: absolute;
     top: 112px;
     left: 11px;
-    border-radius: 11px;
+    border-radius: 11px;/* Set the border radius to create rounded corners */
     background-color: #f6f8f9;
     border: 1px solid #e1e1e1;
-    box-sizing: border-box;
+    box-sizing: border-box;/* Include the border in the element's dimensions */
     width: 347px;
     height: 45px;
-    cursor: pointer;
+    cursor: pointer;/* Change the cursor to a hand pointer on hover */
     font-family: var(--font-poppins-regular);
   }
   .home-address1 {
-    letter-spacing: 0.32px;
+    letter-spacing: 0.32px;/* Adjust the letter spacing of the text */
+  }
   }
   .home-address {
     margin: 0;
   }
   .nestow-st-no72 {
-    margin: 0;
-    font-size: var(--font-size-4xs);
+    margin: 0;/* Remove any margin from the element */
+  }
+    font-size: var(--font-size-4xs);/* Use a specific font size */
     font-family: var(--font-poppins-medium);
   }
   .span {
@@ -111,7 +114,7 @@
     left: 35.33%;
   }
   .map-icon {
-    position: absolute;
+    position: absolute;/* Position the element absolutely within its parent */
     height: 100%;
     width: 100%;
     top: 0;
@@ -128,12 +131,12 @@
     box-sizing: border-box;
   }
   .map {
-    height: calc(100% - 11px);
+    height: calc(100% - 11px);/* Calculate the height relative to the parent container */
     top: 6px;
     bottom: 5px;
     left: 7px;
     border-radius: var(--br-4xs);
-    background-color: var(--color-gainsboro-100);
+    background-color: var(--color-gainsboro-100);/* Set the background color using a CSS variable */
     border: 3px solid var(--color-salmon-100);
     width: 39px;
   }
@@ -794,7 +797,7 @@
   }
   .about-alexs-factory a{
     text-decoration: none;
-    color: #f5f9fa;
+    color: #fff;
   }
   .home {
     position: relative;
@@ -806,4 +809,63 @@
     color: var(--color-darkslategray-100);
     font-family: var(--font-poppins-bold);
   }
+
+  .about-alexs-factory {
+    transition: font-size 2s, opacity 2s;/* Apply a transition effect to the font-size and opacity properties with a duration of 2 seconds */
+  }
+  
+  .about-alexs-factory:hover {
+    font-size: 1.2em;/* Increase the font size when hovering over the element */
+    opacity: 0.5;
+  }
+  
+  .about-alexs-factory:hover::after {
+    content: attr(data-text);/* Set the content of the pseudo-element to the value of the 'data-text' attribute */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;/* Set the initial opacity of the pseudo-element */
+    animation: fadeOut 2s ease-in-out 2s forwards;/* Apply the 'fadeOut' animation to the pseudo-element */
+  }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;/* Set the initial opacity of the pseudo-element */
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .can-icon {
+    transition: transform 0.2s;/* Apply a transition effect to the transform property with a duration of 0.2 seconds */
+  }
+  
+  .can-icon:hover {
+    animation: shake 0.2s infinite;/* Apply the 'shake' animation to the element on hover */
+    transform: scale(1.2); /* Scale up the size of the element when hovering over it */
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(-2px) rotate(0deg) scale(1.2);
+    }
+    25% {
+      transform: translateX(2px) rotate(-4deg) scale(1.2);
+    }
+    50% {
+      transform: translateX(-2px) rotate(4deg) scale(1.2);/* Set the transformation at 50% of the animation */
+    }
+    75% {
+      transform: translateX(2px) rotate(-2deg) scale(1.2);
+    }
+    100% {
+      transform: translateX(0) rotate(0deg) scale(1.2);
+    }
+  }
+  
+  
+  
+  
   

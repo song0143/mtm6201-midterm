@@ -338,6 +338,10 @@
   width: 201px;
   opacity: 0.56;
 }
+.type-a-message1 a{
+  text-decoration: none;
+  color: #949494;
+}
 .type-a-message {
   position: absolute;
   width: 100%;
