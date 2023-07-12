@@ -4,20 +4,20 @@
   width: 100%;
   right: 0;
   left: 0;
-}
+}/* Defines a full-width container for background elements */
 .rectangle6 {
   height: 100%;
   top: 0;
   bottom: 0;
   background-color: var(--color-gray-100);
-}
+}/* Sets the background color for the rectangle6 element */
 .background-copy {
   height: calc(100% - 725px);
   top: 5px;
   bottom: 720px;
   background-color: #88cc90;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
+}/* Sets the background color and dimensions for the background-copy element */
 .maria-sterli {
   position: absolute;
   top: calc(50% - 385px);
@@ -36,7 +36,7 @@
   letter-spacing: 0.35px;
   font-family: var(--font-poppins-light);
   opacity: 0.97;
-}
+}/* Positions and styles the crazy-pizza-call-container element */
 .photo-icon {
   position: absolute;
   top: 19px;
@@ -75,7 +75,7 @@
   position: absolute;
   left: 0;
   background-color: var(--color-white);
-}
+}/* Positions and styles the group-item and rectangle7 elements */
 .rectangle7 {
   top: 107px;
   width: 375px;
