@@ -1,3 +1,4 @@
+
 .rectangle {
     position: absolute;
     top: 0;
@@ -63,6 +64,12 @@
     left: 12.28%;
     letter-spacing: 0.32px;
   }
+
+  .search-in-thousands a{
+    text-decoration: none;
+    color: #21114c;
+  }
+
   .group {
     position: absolute;
     width: calc(100% - 28.94px);
@@ -285,7 +292,7 @@
   .see-all-36 {
     position: absolute;
     top: calc(50% - 53px);
-    left: 83.72%;
+    left: 75%;
     font-size: var(--font-size-4xs);
     letter-spacing: 0.26px;
     color: #939394;
@@ -641,8 +648,13 @@
   }
   .news2 {
     top: calc(50% + 11px);
-    left: 11.54%;
+    left: 0%;
     letter-spacing: 0.21px;
+  }
+
+  .news2 a{
+    text-decoration: none;
+    color: #949494;
   }
   .news {
     bottom: 10px;
@@ -682,7 +694,7 @@
     height: 100%;
     top: 0;
     bottom: 0;
-    left: 8.82px;
+    left: 11.82px;
     border-radius: 34px;
     max-height: 100%;
     width: 144.18px;
@@ -700,7 +712,7 @@
     font-family: var(--font-poppins-medium);
   }
   .available-until-24 {
-    top: calc(50% + 69.65px);
+    top: calc(50% + 55px);
     left: 45.38%;
     font-size: var(--font-size-4xs);
     letter-spacing: 0.26px;
@@ -754,8 +766,7 @@
     background-color: var(--color-darkseagreen-100);
   }
   .campain {
-    margin-block-end: 0px;
-    bottom: 114px;
+    bottom: 94px;
     left: 14.5px;
     border-radius: var(--br-smi);
     width: 346px;
@@ -780,6 +791,10 @@
     font-family: var(--font-poppins);
     color: var(--color-white);
     cursor: pointer;
+  }
+  .about-alexs-factory a{
+    text-decoration: none;
+    color: #f5f9fa;
   }
   .home {
     position: relative;
